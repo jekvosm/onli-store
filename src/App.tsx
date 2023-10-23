@@ -1,7 +1,18 @@
-import './App.css'
+import { Outlet } from 'react-router-dom'
 
-function App() {
-  return <h1>Onli Store</h1>
+import Header from './components/header/header.component'
+import Footer from './components/footer/footer.component'
+
+import styles from './App.module.css'
+
+const App = () => {
+  return (
+    <div className={styles.wrapper}>
+      <Header />
+      <Outlet />
+      <Footer />
+    </div>
+  )
 }
 
 export default App
