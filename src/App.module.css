@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #bbd0ff;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;

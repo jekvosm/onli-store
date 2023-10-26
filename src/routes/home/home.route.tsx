@@ -1,5 +1,5 @@
 import Directory from '../../components/directory/directory.component'
-import RandomItems from '../../components/random-items/random-items.component'
+import RandomItems from '../../components/random-products/random-products.component'
 import styles from './home.module.css'
 
 const Home = () => {

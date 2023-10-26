@@ -1,0 +1,55 @@
+.directory_item__container {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 7.5px 15px;
+  cursor: pointer;
+}
+
+.directory_item__image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+
+  transition: filter 0.3s linear, transform 0.3s linear;
+  transform: scale(1.2);
+}
+
+.directory_item__container:hover .directory_item__image {
+  filter: brightness(85%);
+  transform: scale(1.23);
+}
+
+.directory_item__badge {
+  height: 50px;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #bbd0ff;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 2rem;
+  transition: opacity 0.3s linear;
+
+  h2 {
+    font-weight: bold;
+    margin: 0 6px 0;
+    font-size: 22px;
+    color: #4a4a4a;
+    text-transform: uppercase;
+  }
+}
+
+.directory_item__container:hover .directory_item__badge {
+  opacity: 0.9;
+}

@@ -1,0 +1,35 @@
+.product_container {
+  width: calc(100% / 5 - 16px);
+  margin: 0 8px 36px;
+  /* background-color: #bbd0ff; */
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(36, 36, 36, 0.1);
+  padding-bottom: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product_image {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.container_price_rating {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+
+.product_price {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.product_title {
+  padding: 0 0.5rem;
+}
+
+.product_name {
+  color: #909090;
+}

@@ -1,16 +1,18 @@
 type DirectoryItem = {
   id: number
+  name: string
   title: string
+  imageUrl: string
   categories: Category[]
 }
 
 type Category = {
   id: number
   category: string
-  items: CategoryItem[]
+  products: Product[]
 }
 
-type CategoryItem = {
+type Product = {
   id: number
   brand: string
   name: string

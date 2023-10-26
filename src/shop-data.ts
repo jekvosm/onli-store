@@ -1,12 +1,14 @@
 const SHOP_DATA: DirectoryItem[] = [
   {
     id: 1,
+    name: 'women',
     title: 'Женщинам',
+    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
     categories: [
       {
         id: 1,
         category: 'Платья и сарафаны',
-        items: [
+        products: [
           {
             id: 1,
             brand: 'ZARINA',
@@ -152,7 +154,7 @@ const SHOP_DATA: DirectoryItem[] = [
       {
         id: 2,
         category: 'Блузки и рубашки',
-        items: [
+        products: [
           {
             id: 11,
             brand: 'ZARINA',
@@ -299,7 +301,7 @@ const SHOP_DATA: DirectoryItem[] = [
       {
         id: 3,
         category: 'Джинсы',
-        items: [
+        products: [
           {
             id: 21,
             brand: 'Befree',
@@ -445,7 +447,7 @@ const SHOP_DATA: DirectoryItem[] = [
       {
         id: 4,
         category: 'Женская обувь',
-        items: [
+        products: [
           {
             id: 31,
             brand: 'Mango',
@@ -591,7 +593,7 @@ const SHOP_DATA: DirectoryItem[] = [
       {
         id: 5,
         category: 'Верхняя одежда',
-        items: [
+        products: [
           {
             id: 41,
             brand: 'ZARINA',
@@ -738,12 +740,14 @@ const SHOP_DATA: DirectoryItem[] = [
   },
   {
     id: 2,
+    name: 'men',
     title: 'Мужчинам',
+    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
     categories: [
       {
         id: 1,
         category: 'Футболки и майки',
-        items: [
+        products: [
           {
             id: 51,
             brand: 'Nike',
@@ -889,7 +893,7 @@ const SHOP_DATA: DirectoryItem[] = [
       {
         id: 2,
         category: 'Рубашки',
-        items: [
+        products: [
           {
             id: 61,
             brand: "O'STIN",
@@ -1035,7 +1039,7 @@ const SHOP_DATA: DirectoryItem[] = [
       {
         id: 3,
         category: 'Джинсы',
-        items: [
+        products: [
           {
             id: 71,
             brand: 'ТВОЕ',
@@ -1181,7 +1185,7 @@ const SHOP_DATA: DirectoryItem[] = [
       {
         id: 4,
         category: 'Мужская обувь',
-        items: [
+        products: [
           {
             id: 81,
             brand: 'Nike',
@@ -1329,7 +1333,7 @@ const SHOP_DATA: DirectoryItem[] = [
       {
         id: 5,
         category: 'Верхняя одежда',
-        items: [
+        products: [
           {
             id: 91,
             brand: "O'STIN",
